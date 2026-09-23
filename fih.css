@@ -1,0 +1,21 @@
+body {
+    background-color: #fff;
+    margin: 0;
+}
+
+nav#main-nav {
+    background-color: rgb(5, 103, 189);
+}
+#main-nav > a {
+   color: #fff;
+    display: inline-block;
+    padding: 1em;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: all ease-in-out 500ms;
+}
+
+#main-nav > a:hover {
+    color: rgb(244, 255, 35);
+    background-color: rgb(red, green, blue);
+}
